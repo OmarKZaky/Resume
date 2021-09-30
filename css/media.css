@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+    .top-cloud {
+        position: absolute;
+        right: 60%;
+        top: 50px;
+    }
+
+    .bot-cloud {
+        position: absolute;
+        left: 64%;
+        top: 350px;
+    }
+    .mountain {
+        width: 74%;
+    }
+
+    .certificate,
+    .song,
+    .shooting,
+    .skills-img,
+    .contact {
+      display: none;
+    }
+}
+  
+  @media (max-width: 425px) {
+    .mountain {
+        width: 88%;
+    }
+  }

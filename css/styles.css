@@ -1,0 +1,305 @@
+body {
+  margin: 0px;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+hr {
+  width: 10% !important;
+  border-style: none !important;
+  border-top: 10px dotted #b4c4c4 !important;
+  margin: 90px auto !important;
+  text-align: center !important;
+  background-color: #fff !important;
+}
+
+h1 {
+  font-size: 5.625rem !important;
+  margin: 50px auto 0 auto !important;
+  font-family: 'Dancing Script', cursive !important;
+  color: #66BFBF !important;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.navbar-pad {
+  padding-inline: 3%;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  color: #11999E !important;
+}
+
+.nav-item {
+  margin-inline: 10px !important;
+}
+
+.nav-item a {
+  color: #11999E !important;
+  text-decoration: none !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.nav-item a:hover {
+  color: #005252 !important;
+}
+
+.top-container {
+  background-color: #CDF0EA;
+  padding-top: 100px;
+  position: relative;
+  text-align: center;
+}
+
+.bot-cloud {
+  position: absolute;
+  left: 71%;
+  top: 350px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 76%;
+  top: 50px;
+}
+
+.profile {
+  padding-top: 4%;
+}
+
+.profile img {
+  width: 10%;
+  margin-block: 30px;
+}
+
+.profile p {
+  width: 75%;
+  margin: auto;
+}
+
+.middle-container {
+  text-align: center;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.ui {
+  width: 24%;
+  float: left;
+  margin-right: 30px;
+}
+
+.sport {
+  width: 24%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+  font-family: 'Montserrat', sans-serif !important;
+
+}
+
+.BUTTON {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 15px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON:hover {
+  border: solid #FFFFFF 0;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+
+.bottom-container {
+  margin-top: 70px;
+  padding: 40px 0 1px;
+  background-color: #66BFBF;
+  text-align: center;
+}
+
+.footer-link {
+  margin: 0 15px;
+  color: #005252;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link:hover {
+  color: #121615;
+}
+
+.copy {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/****************************** About Page **************************************/
+thead {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about-td {
+  padding-left: 20px !important;
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 20px;
+  font-size: 17px;
+}
+
+.hobbies {
+  font-size: 17px !important;
+  padding-left: 20px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500;
+}
+
+.language {
+  font-size: 17px !important;
+  padding-left: 20px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500;
+}
+
+.about-heading {
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.table3 {
+  padding-bottom: 2%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.certificate {
+  width: 24%;
+  float: right;
+  position: absolute;
+  top: 56%;
+  right: 5%;
+}
+
+.shooting {
+  width: 11%;
+  float: right;
+  position: absolute;
+  top: 142%;
+  right: 10%;
+}
+
+.song {
+  width: 11%;
+  float: right;
+  position: absolute;
+  bottom: -100%;
+  right: 10%;
+}
+
+ .about-h3 {
+  padding: 17px;
+} 
+
+/****************************** Skills Page **************************************/
+.skills-td { 
+  padding-block: 28px;
+  padding-right: 121px;
+  padding-left: 35px;
+  font-family: 'Montserrat', sans-serif !important;
+} 
+
+.skills-img {
+  position: absolute;
+  top: 55%;
+  right: 7%;
+  width: 28%;
+}
+
+.skills-h3 {
+  padding: 17px 17px 17px 40px;
+}
+
+.personal-skills {
+  font-size: 17px !important;
+  padding-left: 20px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500;
+}
+
+/****************************** Contact Page **************************************/
+h4 {
+  padding: 30px 10px 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.contact-bottom-container {
+  margin-top: 127px;
+  padding: 40px 0 1px;
+  background-color: #66BFBF;
+  text-align: center;
+}
+
+.fas {
+  float: left;
+  padding: 15px 20px 0 60px;
+  color: #66BFBF
+}
+
+.contact {
+  position: absolute;
+  top: 40%;
+  right: 7%;
+  width: 28%;
+}
